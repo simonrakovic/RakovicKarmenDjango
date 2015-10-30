@@ -1,0 +1,105 @@
+
+/** NAVBAR */
+.navbar{
+    margin-bottom: 0px;
+    margin-top: 20px;
+    border-radius: 0;
+    z-index: 1;
+}
+
+.navbar-inverse{
+    background-color: rgba(105,18,39,0.98);
+    border: none;
+    min-height: 100px;
+
+}
+
+
+.navbar-collapse{
+    padding-left: 0px;
+}
+.navbar-nav{
+    margin-top: 60px;
+}
+.navbar-inverse .navbar-nav > li > a{
+
+   color: #ffffff;
+   font-size: 1.1em;
+   text-transform: uppercase;
+
+
+   border-right: 1px solid rgba(0,0,0,0.1);
+
+
+}
+
+
+.navbar-brand{
+    padding: 0;
+}
+
+
+
+
+.navbar-nav > li > a:active{
+
+}
+
+.navbar-nav > li > a:hover{
+
+
+}
+
+.navbar-nav > li > a:focus{
+
+
+}
+
+
+
+
+
+ /** panels */
+
+.panel{
+
+
+   background: rgba(255,255,255,0.3);
+   border:none;
+
+}
+
+
+
+
+.panel-default > .panel-heading{
+    background: rgba(105,18,39,0.8);
+
+    border-bottom:3px solid #EFB43D;
+
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+
+    text-transform: uppercase;
+}
+
+.panel-heading > h4 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+
+    text-transform: uppercase;
+}
+
+
+ /** Title */
+
+.page-header{
+    padding:0;
+    margin:0;
+}
