@@ -9,7 +9,7 @@ body{
 .box-top-content{
     height: 20px;
     background: rgba(105,18,39,1);
-    font-family: 'Ubuntu', sans-serif;
+
 }
 
 .box-top-content-info{
@@ -18,6 +18,8 @@ body{
     font-size: 0.9em;
     font-weight: bold;
     float: right;
+    font-family: 'Ubuntu', sans-serif;
+    padding-right: 15px;
 }
 
 .glyphicon-top{
@@ -94,250 +96,9 @@ body{
 .navbar-active{
    padding-top: -10px;
 }
-/** BOTTOM CONTENT */
 
-
-
-.flexslider{
-    height: 500px;
-
-    border: none;
-    margin: 0;
-    margin-top: 0px;
-    z-index: 0;
-
-
-
-
-}
-
-.bottom-content-flexslider-title1{
-
-    width: 40%;
-    position: absolute;
-    top:180px;
-    left:0;
-
-
-}
-
-.bottom-content-flexslider-title1 h1{
-    font-size: 2.5em;
-    text-shadow: 2px 2px 1px rgba(105,18,39,0.2);
-    color:white;
-    background: #0292E0;
-
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 5px;
-    text-align: center;
-
-}
-
-.bottom-content-flexslider-title1 h2{
-    margin-top: 50px;
-    font-size: 2.2em;
-    text-shadow: 2px 2px 1px rgba(105,18,39,0.2);
-    color:white;
-    padding-top: 5px;
-    text-align: center;
-    background: #EFB43D;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-}
-
-
-
-.bottom-content-flexslider-title2{
-     width: 40%;
-
-     position: absolute;
-     top:180px;
-     left:0;
-}
-
-.bottom-content-flexslider-title2 h1{
-    font-size: 2.5em;
-
-    text-shadow: 2px 2px 1px rgba(105,18,39,0.2);
-
-    color:white;
-    background: rgba(105,18,39,1);
-
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 5px;
-
-
-}
-
-
-/** ANIMACIJE */
-
-.bottom-content-lower-container-1{
-    height: auto;
-}
-
-.animate-title1-text2-delay{
-    animation-delay: 2s;
-}
-
-.bottom-content-flexslider-title1-animate-delay{
-    animation-delay: 6s;
-}
-
-.animate-title2-text2-delay{
-    animation-delay: 6s;
-}
-
-
-/** VSEBINA */
-
-
-
-.container-bottom-content{
-
-    margin-top: 40px;
-    height: 200px;
-}
-
-.glyphicon{
-
-   color: rgba(105,18,39,1);
-   font-size: 30px;
-   text-align: center;
-   width: 100%;
-}
-
-.container-bottom-content-box-content-title{
-   color: rgba(0,0,0,0.7);
-   font-size: 1.2em;
-   text-align: center;
-   font-weight: bold;
-
-    padding-top: 20px;
-    padding-bottom: 10px;
-
-}
-
-.container-bottom-content-box-content-text{
-    padding-left: 30px;
-    padding-right: 30px;
-
-    text-align: justify;
-}
-
-.container-bottom-content-box-content-button{
-    width: 50%;
-
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-
-    height: 40px;
-
-    background-color: rgba(105,18,39,1);
-
-    text-align: center;
-    line-height: 40px;
-
-    color: #ffffff;
-    font-weight: bold;
-}
-
-
-
-.bottom-content-lower-container-2{
-    background-color: #ffffff;
-    margin-top: 100px;
-    height: 400px;
-
-    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
-    box-shadow:  0px 1px 4px rgba(0,0,0,0.2);
-}
-
-.bottom-content-lower-container-2-content{
-    margin-top: 100px;
-
-}
-
-.bottom-content-lower-container-2-content-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bottom-content-lower-container-2-content-text{
-    padding-top: 30px;
-    padding-left: 30px;
-
-    text-align: justify;
-}
-
-
-
-.bottom-content-lower-container-3{
-    margin-top: 100px;
-    height: 400px;
-}
-
-.bottom-content-lower-container-3-content{
-    margin-top: 100px;
-}
-
-.bottom-content-lower-container-3-content-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bottom-content-lower-container-3-content-text{
-
-    padding-top: 30px;
-    padding-right: 60px;
-
-    text-align: justify;
-
-}
     /** FONTS */
 
-@font-face {
-    font-family: chollaSans-b;
-    src: url("../static/fonts/ChollaSans-Bold.otf");
-}
-
-@font-face {
-    font-family: chollaWide;
-    src: url("../static/fonts/ChollaWide.otf");
-}
-
-@font-face {
-    font-family: cantarell-b;
-    src: url("../static/fonts/Cantarell-Bold.ttf");
-}
-
-@font-face {
-    font-family: cantarell;
-    src: url("../static/fonts/Cantarell-Regular.ttf");
-}
-
-@font-face {
-    font-family: familiar;
-    src: url("../static/fonts/Familiar_Pro-Bold.otf");
-}
-
-@font-face {
-    font-family: exo;
-    src: url("../static/fonts/Exo-Bold.otf");
-}
-
-@font-face {
-    font-family: existance;
-    src: url("../static/fonts/Existence-Light.otf");
-}
-
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 

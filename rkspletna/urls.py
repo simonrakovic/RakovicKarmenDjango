@@ -11,5 +11,8 @@ urlpatterns = patterns('',
     # url(r'^$', 'rkspletna.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     url(r'^$', views.home, name='home'),
+    url(r'^podjetje/', views.podjetje, name='home'),
+    url(r'^storitve/', views.storitve, name='home'),
+    url(r'^povprasevanje/', views.povprasevanje, name='home'),
     url(r'^admin/', include(admin.site.urls)),
 )

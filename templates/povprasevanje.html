@@ -1,0 +1,30 @@
+{% extends "main.html" %}
+{% block head_content %}
+    <link type="text/css" rel="stylesheet" href="{{STATIC_URL}}css/povprasevanje.css">
+{% endblock %}
+
+{% block main_content %}
+    <div class="row bottom-content-container1">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+              <div class=" row bottom-content-box">
+                  <div class="bottom-content-box-title">
+                       POVPRAŠEVANJE
+                  </div>
+                  <div class="col-lg-2">
+
+                  </div>
+                  <div class="col-lg-8">
+                      <div class="row bottom-content-box-from-left">
+                          {{ form }}
+                      </div>
+                  </div>
+                  <div class="col-lg-2">
+
+                  </div>
+              </div>
+        </div>
+
+        <div class="col-lg-2"></div>
+    </div>
+{% endblock %}

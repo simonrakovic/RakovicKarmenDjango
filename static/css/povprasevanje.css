@@ -1,0 +1,38 @@
+.bottom-content-container1{
+    padding-top: 150px;
+    min-height:580px;
+
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+    box-shadow:  0px 1px 4px rgba(0,0,0,0.2);
+    background-color: #ffffff;
+
+}
+
+
+.bottom-content-box{
+
+  padding-top: 30px;
+}
+
+.bottom-content-box-title{
+   font-size: 2.2em;
+
+   border-bottom: 2px solid rgba(105,18,39,1);
+
+
+}
+
+.bottom-content-box-from-left{
+    padding-top: 50px;
+
+    padding-right: 20px;
+
+}
+
+.bottom-content-box-from-right{
+    padding-top: 50px;
+
+    padding-left: 20px;
+
+}
