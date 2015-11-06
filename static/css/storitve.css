@@ -17,7 +17,7 @@
 
 .bottom-content-box-title{
    font-size: 2.2em;
-
+   width: 30%;
    border-bottom: 2px solid rgba(105,18,39,1);
 
 
@@ -57,66 +57,6 @@
 }
 
 
-.li2{
-  animation-delay:0.05s;
-}
-
-.li3{
-  animation-delay:0.1s;
-}
-
-.li4{
-  animation-delay:0.15s;
-}
-
-.li5{
-  animation-delay:0.2s;
-}
-
-.li6{
-  animation-delay:0.25s;
-}
-
-.li7{
-  animation-delay:0.3s;
-}
-
-.li8{
-  animation-delay:0.35s;
-}
-
-.li9{
-  animation-delay:0.4s;
-}
-
-.li10{
-  animation-delay:0.45s;
-}
-
-.li11{
-  animation-delay:0.5s;
-}
-
-.li12{
-  animation-delay:0.55s;
-}
-
-.li13{
-  animation-delay:0.6s;
-}
-
-.li14{
-  animation-delay:0.65s;
-}
-
-.li15{
-  animation-delay:0.7s;
-}
-
-
-.li16{
-  animation-delay:0.75s;
-}
 
 
 

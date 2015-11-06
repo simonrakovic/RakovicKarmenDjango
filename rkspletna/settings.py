@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rkWebApp',
+    'bootstrap3'
 )
 
 MIDDLEWARE_CLASSES = (

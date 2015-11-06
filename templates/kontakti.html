@@ -1,0 +1,79 @@
+{% extends "main.html" %}
+{% block head_content %}
+    <link type="text/css" rel="stylesheet" href="{{STATIC_URL}}css/kontakti.css">
+
+    <style>
+
+    </style>
+
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var myLatlng = new google.maps.LatLng(46.03799, 14.47912);
+        var mapOptions = {
+          center: myLatlng,
+          zoom: 17,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+
+        }
+
+
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'Rakovič Karmen s.p. - Računovodkse in Knjigovodske stortve'
+        });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+{% endblock %}
+
+{% block main_content %}
+    <div class="row bottom-content-container1">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+              <div class=" row bottom-content-box">
+                  <div class="bottom-content-box-title">
+                        Kontakti
+                  </div>
+                  <div class="col-lg-6">
+                      <div class="row bottom-content-box-text">
+                            <div>
+                                <img src="" alt="slika2" width="100%" height="auto"/>
+                            </div>
+                            <div>
+
+                            </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                        <div class="row bottom-content-box-map" >
+                            <div id="map"></div>
+                        </div>
+                  </div>
+              </div>
+        </div>
+
+        <div class="col-lg-2"></div>
+    </div>
+    <div class=" row bottom-content-container2">
+        <div class="col-lg-2"></div>
+              <div class="col-lg-8">
+                  <div class="row bottom-content-container2-box">
+
+                      <div class="bottom-content-box-text">
+
+
+                      </div>
+                  </div>
+              </div>
+        <div class="col-lg-2"></div>
+    </div>
+
+
+{% endblock %}

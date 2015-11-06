@@ -1,4 +1,5 @@
 {% extends "main.html" %}
+{% load bootstrap3 %}
 {% block head_content %}
     <link type="text/css" rel="stylesheet" href="{{STATIC_URL}}css/povprasevanje.css">
 {% endblock %}
@@ -8,23 +9,91 @@
         <div class="col-lg-2"></div>
         <div class="col-lg-8">
               <div class=" row bottom-content-box">
-                  <div class="bottom-content-box-title">
-                       POVPRAŠEVANJE
-                  </div>
-                  <div class="col-lg-2">
+                    <div class="bottom-content-box-title">
+                           POVPRAŠEVANJE
+                    </div>
+                    <div class="animated fadeIn bottom-content-box-from">
+                        {% bootstrap_messages %}
+                        <form method="POST">
+                            {% csrf_token %}
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                  {% bootstrap_field form.ime_kontaktne_osebe   %}
+                                </div>
+                                <div class="form-group">
+                                  {% bootstrap_field form.email   %}
 
-                  </div>
-                  <div class="col-lg-8">
-                      <div class="row bottom-content-box-from-left">
-                          {{ form }}
-                      </div>
-                  </div>
-                  <div class="col-lg-2">
+                                </div>
+                                <div class="form-group">
+                                  {% bootstrap_field form.naziv_podjetja   %}
+                                </div>
 
-                  </div>
+                                <div class="form-group">
+                                  {% bootstrap_field form.sedez_podjetja   %}
+
+                                </div>
+
+                                <div class="form-group">
+                                   {% bootstrap_field form.davcni_zavezanec   %}
+
+
+                                </div>
+
+                                <div class="form-group">
+                                    {% bootstrap_field form.vrsta_dejavnosti   %}
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+
+
+                                <div class="form-group">
+                                  {% bootstrap_field form.st_zaposlenih   %}
+
+                                </div>
+
+
+
+                                <div class="form-group">
+                                  {% bootstrap_field form.st_prejetnih_racunov  %}
+
+                                </div>
+
+                                <div class="form-group">
+                                  {% bootstrap_field form.st_izdanih_racunov   %}
+
+                                </div>
+
+                                <div class="form-group">
+                                  {% bootstrap_field form.dodatna_vprasanja   %}
+
+                                </div>
+
+                            </div>
+                            {% buttons %}
+                                <button type="submit" class="btn btn-default bottom-content-box-from-button">
+                                    POŠLJI
+                                </button>
+                            {% endbuttons %}
+                        </form>
+                    </div>
+
               </div>
         </div>
 
+        <div class="col-lg-2"></div>
+    </div>
+    <div class=" row bottom-content-container2">
+        <div class="col-lg-2"></div>
+              <div class="col-lg-8">
+                  <div class="row bottom-content-container2-box">
+
+                      <div class="bottom-content-box-text">
+
+
+                      </div>
+                  </div>
+              </div>
         <div class="col-lg-2"></div>
     </div>
 {% endblock %}

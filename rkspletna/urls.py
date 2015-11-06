@@ -14,5 +14,6 @@ urlpatterns = patterns('',
     url(r'^podjetje/', views.podjetje, name='home'),
     url(r'^storitve/', views.storitve, name='home'),
     url(r'^povprasevanje/', views.povprasevanje, name='home'),
+    url(r'^kontakti/', views.kontakti, name='home'),
     url(r'^admin/', include(admin.site.urls)),
 )
