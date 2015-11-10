@@ -100,8 +100,10 @@ body{
     /** FONTS */
 
 .footer{
-    height: 120px;
+    min-height: 120px;
     background-color: rgba(105,18,39,1);
+
+
 
 }
 
@@ -136,6 +138,56 @@ body{
 
 .footer-box-content ul li i span{
      width:95%
+}
+
+@media(max-width: 991px) {
+    .navbar{
+        margin-top:20px;
+    }
+    .navbar-inverse{
+        min-height:40px
+    }
+    .navbar-nav{
+        margin-top:10px
+    }
+    .navbar-brand-title{
+        display: none;
+    }
+    .navbar-brand-container{
+        padding-top:0
+    }
+
+    .container-bottom-content{
+        margin-top: 60px;
+    }
+
+    .navbar-brand-image{
+        display: inline-block;
+        width: 10%;
+    }
+
+    .navbar-header{
+       display: inline-block;
+       width: 90%;
+    }
+
+    .box-top-content-info{
+        font-size: 0.8em;
+
+    }
+
+    .glyphicon-top{
+    margin-left: 10px;
+    }
+
+
+    .footer-box-content ul li{
+
+        margin-top: 5px;
+        width: 100%;
+
+        font-size: 0.9em;
+    }
 }
 
 

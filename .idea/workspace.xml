@@ -26,18 +26,18 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.25926" vertical-offset="2234" max-vertical-offset="4680">
-              <caret line="153" column="50" selection-start-line="153" selection-start-column="50" selection-end-line="153" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.6666667" vertical-offset="4050" max-vertical-offset="4878">
+              <caret line="224" column="46" selection-start-line="224" selection-start-column="46" selection-end-line="224" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rkWebApp/forms.py">
+      <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3803" max-vertical-offset="4608">
+              <caret line="232" column="26" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -46,28 +46,18 @@
       <file leaf-file-name="main-style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/main-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.633333" vertical-offset="1948" max-vertical-offset="2700">
-              <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+            <state vertical-scroll-proportion="-2.5166667" vertical-offset="2405" max-vertical-offset="3636">
+              <caret line="142" column="26" selection-start-line="142" selection-start-column="26" selection-end-line="142" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kontakti.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="kontakti.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/kontakti.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1152">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kontakti.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/kontakti.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.666667" vertical-offset="522" max-vertical-offset="1512">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.94401246" vertical-offset="1139" max-vertical-offset="1890">
+              <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -76,18 +66,40 @@
       <file leaf-file-name="povprasevanje.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/povprasevanje.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="887" max-vertical-offset="1530">
+              <caret line="79" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="povprasevanje.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/povprasevanje.html">
+      <file leaf-file-name="kontakti.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/kontakti.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.074074" vertical-offset="349" max-vertical-offset="1872">
-              <caret line="42" column="81" selection-start-line="42" selection-start-column="81" selection-end-line="42" selection-end-column="81" />
+            <state vertical-scroll-proportion="-15.481482" vertical-offset="950" max-vertical-offset="2052">
+              <caret line="76" column="104" selection-start-line="76" selection-start-column="104" selection-end-line="76" selection-end-column="104" />
+              <folding>
+                <element signature="e#2260#2284#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="podjetje.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/podjetje.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="30.74074" vertical-offset="1514" max-vertical-offset="2142">
+              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="podjetje.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/podjetje.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1978" max-vertical-offset="2646">
+              <caret line="141" column="1" selection-start-line="120" selection-start-column="0" selection-end-line="141" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -96,8 +108,8 @@
       <file leaf-file-name="storitve.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/storitve.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="1926">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="2286">
+              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="121" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -106,8 +118,8 @@
       <file leaf-file-name="storitve.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/storitve.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.925926" vertical-offset="146" max-vertical-offset="1260">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="1260">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -123,24 +135,24 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/static/css/home.css" />
         <option value="$PROJECT_DIR$/static/css/fonts/storitve.html" />
         <option value="$PROJECT_DIR$/rkspletna/settings.py" />
         <option value="$PROJECT_DIR$/rkWebApp/forms.py" />
         <option value="$PROJECT_DIR$/static/css/bootstrap-costom.css" />
         <option value="$PROJECT_DIR$/rkWebApp/views.py" />
         <option value="$PROJECT_DIR$/rkspletna/urls.py" />
-        <option value="$PROJECT_DIR$/static/css/kontakti.css" />
-        <option value="$PROJECT_DIR$/static/css/podjetje.css" />
-        <option value="$PROJECT_DIR$/templates/podjetje.html" />
-        <option value="$PROJECT_DIR$/static/css/storitve.css" />
-        <option value="$PROJECT_DIR$/templates/storitve.html" />
-        <option value="$PROJECT_DIR$/static/css/povprasevanje.css" />
-        <option value="$PROJECT_DIR$/templates/main.html" />
-        <option value="$PROJECT_DIR$/static/css/main-style.css" />
-        <option value="$PROJECT_DIR$/templates/kontakti.html" />
         <option value="$PROJECT_DIR$/templates/povprasevanje.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/templates/main.html" />
+        <option value="$PROJECT_DIR$/templates/podjetje.html" />
+        <option value="$PROJECT_DIR$/static/css/main-style.css" />
+        <option value="$PROJECT_DIR$/static/css/home.css" />
+        <option value="$PROJECT_DIR$/static/css/podjetje.css" />
+        <option value="$PROJECT_DIR$/templates/storitve.html" />
+        <option value="$PROJECT_DIR$/static/css/storitve.css" />
+        <option value="$PROJECT_DIR$/static/css/povprasevanje.css" />
+        <option value="$PROJECT_DIR$/templates/kontakti.html" />
+        <option value="$PROJECT_DIR$/static/css/kontakti.css" />
       </list>
     </option>
   </component>
@@ -547,22 +559,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="2772">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="3816">
-          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/bootstrap3/templates/bootstrap3/field_help_text_and_errors.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="659">
@@ -615,54 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/podjetje.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="2178">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/podjetje.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19267516" vertical-offset="1031" max-vertical-offset="2142">
-          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/storitve.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="1926">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/storitve.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.925926" vertical-offset="146" max-vertical-offset="1260">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/kontakti.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.666667" vertical-offset="522" max-vertical-offset="1512">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/povprasevanje.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/povprasevanje.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.074074" vertical-offset="349" max-vertical-offset="1872">
@@ -671,26 +619,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/main-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.633333" vertical-offset="1948" max-vertical-offset="2700">
-          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/kontakti.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1152">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.25926" vertical-offset="2234" max-vertical-offset="4680">
-          <caret line="153" column="50" selection-start-line="153" selection-start-column="50" selection-end-line="153" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.6666667" vertical-offset="4050" max-vertical-offset="4878">
+          <caret line="224" column="46" selection-start-line="224" selection-start-column="46" selection-end-line="224" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4506369" vertical-offset="99" max-vertical-offset="2700">
+          <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -699,6 +639,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/podjetje.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="30.74074" vertical-offset="1514" max-vertical-offset="2142">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/storitve.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/podjetje.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2003" max-vertical-offset="2646">
+          <caret line="141" column="1" selection-start-line="120" selection-start-column="0" selection-end-line="141" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/storitve.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="2286">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="121" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kontakti.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.481482" vertical-offset="950" max-vertical-offset="2052">
+          <caret line="76" column="104" selection-start-line="76" selection-start-column="104" selection-end-line="76" selection-end-column="104" />
+          <folding>
+            <element signature="e#2260#2284#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/povprasevanje.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="887" max-vertical-offset="1530">
+          <caret line="79" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3803" max-vertical-offset="4608">
+          <caret line="232" column="26" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5166667" vertical-offset="2405" max-vertical-offset="3636">
+          <caret line="142" column="26" selection-start-line="142" selection-start-column="26" selection-end-line="142" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/kontakti.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94401246" vertical-offset="1139" max-vertical-offset="1890">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
           <folding />
         </state>
       </provider>

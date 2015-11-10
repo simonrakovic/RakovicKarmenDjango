@@ -56,3 +56,25 @@
 
 
 }
+
+
+@media(max-width: 991px) {
+
+    .bottom-content-container1{
+        padding-top: 0;
+    }
+
+    .bottom-content-box{
+        padding-top: 100px;
+
+        min-height: 400px;
+    }
+
+    .bottom-content-box-title{
+        font-size: 1.7em;
+        width: 70%;
+
+        margin-left: 10px;
+    }
+
+}

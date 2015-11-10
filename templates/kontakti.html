@@ -34,32 +34,62 @@
 
 {% block main_content %}
     <div class="row bottom-content-container1">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-8">
+        <div class="col-lg-2 col-md-2 visible-lg visible-md"></div>
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
               <div class=" row bottom-content-box">
                   <div class="bottom-content-box-title">
                         Kontakti
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                       <div class="row bottom-content-box-text">
                             <div>
-                                <img src="" alt="slika2" width="100%" height="auto"/>
-                            </div>
-                            <div>
+                                <div class="bottom-content-box-text-element" >
+                                    <label class="bottom-content-box-text-element-label">Naziv podjetja:</label> Karmen Rakovič s.p.
+                                </div>
+                                <div class="bottom-content-box-text-element" >
+                                    <label class="bottom-content-box-text-element-label">Sedež podjetja:</label> Tbilijsiska ulica 57, 1000 Ljubljana
+                                </div>
+
+                                <div class="bottom-content-box-text-element">
+                                    <label class="bottom-content-box-text-element-label">Davčna št.:</label> SI12314123
+                                </div>
+
+                                <div class="bottom-content-box-text-element" style="margin-top: 30px">
+                                    <label class="bottom-content-box-text-element-label">Telefon:</label>01/423 41 32
+                                </div>
+
+                                <div class="bottom-content-box-text-element">
+                                    <label class="bottom-content-box-text-element-label">Fax:</label>01/423 41 32
+                                </div>
+
+                                <div class="bottom-content-box-text-element">
+                                    <label class="bottom-content-box-text-element-label">Mobilini telefon:</label>040 833 431
+                                </div>
+
+                                <div class="bottom-content-box-text-element">
+                                    <label class="bottom-content-box-text-element-label">E-poštni naslov:</label>karmen.rakovic@siol.net
+                                </div>
+
+
+
 
                             </div>
+                            <div class="bottom-content-box-img animated fadeInLeft visible-lg visible-md">
+                                <img  src="{{ STATIC_URL }}img/tbilijsiska.jpg" alt="slika2" width="100%" height="auto"/>
+                            </div>
+
                       </div>
                   </div>
 
-                  <div class="col-lg-6">
-                        <div class="row bottom-content-box-map" >
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="row bottom-content-box-map animated fadeInRight" >
                             <div id="map"></div>
                         </div>
                   </div>
               </div>
         </div>
 
-        <div class="col-lg-2"></div>
+        <div class="col-lg-2 col-md-2 visible-lg visible-md"></div>
     </div>
     <div class=" row bottom-content-container2">
         <div class="col-lg-2"></div>

@@ -26,14 +26,25 @@
 }
 
 .bottom-content-box-text{
-    padding-top: 50px;
+    margin-top: 30px;
+    padding-right: 30px;
     font-size: 1.2em;
     text-align: justify;
+    min-height: 500px;
+}
 
+.bottom-content-box-text-element label{
+    width: 30%;
+}
+
+.bottom-content-box-img{
+    position: absolute;
+    bottom: 0;
+    padding-right: 30px;
 }
 
 .bottom-content-box-map{
-    padding-top: 50px;
+    margin-top: 30px;
 }
 
 #map{
@@ -55,4 +66,35 @@
     min-height:350px;
 
 
+}
+
+@media(max-width: 991px) {
+
+    .bottom-content-container1 {
+        padding-top: 0;
+    }
+
+    .bottom-content-box {
+        padding-top: 100px;
+
+        min-height: 400px;
+    }
+
+    .bottom-content-box-title {
+        font-size: 1.7em;
+        width: 70%;
+
+        margin-left: 10px;
+    }
+
+    .bottom-content-box-text{
+        min-height: 300px;
+        margin-left: 10px;
+    }
+
+    .bottom-content-box-map{
+       padding-left: 20px;
+       padding-right: 80px;
+       margin-bottom: 50px;
+    }
 }

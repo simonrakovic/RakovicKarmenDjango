@@ -20,14 +20,14 @@
    width: 30%;
    border-bottom: 2px solid rgba(105,18,39,1);
 
-
+    margin-left: 20px;
 }
 
 .bottom-content-box-text{
     padding-top: 50px;
     font-size: 1.2em;
-    text-align: justify;
 
+    margin-left: 20px;
 }
 
 .bottom-content-box-img{
@@ -98,5 +98,25 @@
 
     min-height:350px;
 
+
+}
+
+
+@media(max-width: 991px) {
+
+    .bottom-content-container1{
+        padding-top: 0;
+    }
+
+    .bottom-content-box{
+        padding-top: 100px;
+
+        min-height: 400px;
+    }
+
+    .bottom-content-box-title{
+        font-size: 1.7em;
+        width: 70%;
+    }
 
 }
