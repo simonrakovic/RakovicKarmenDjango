@@ -6,9 +6,13 @@ from django.shortcuts import render, render_to_response
 # Create your views here.
 from django.template import RequestContext
 from rkWebApp.forms import QuestionForm
+from rkWebApp.models import Novica
 
 
 def home(request):
+
+    novice = Novica.objects.all().order_by('-id')[:3]
+
     return render_to_response('home.html', locals(), context_instance=RequestContext(request))
 
 
@@ -37,3 +41,13 @@ def povprasevanje(request):
 def kontakti(request):
     return render_to_response('kontakti.html', locals(), context_instance=RequestContext(request))
 
+def novice(request):
+
+    novice = Novica.objects.all()
+
+    return render_to_response('novice.html', locals(), context_instance=RequestContext(request))
+
+def novica(request, id):
+
+    novica = Novica.objects.get(pk=id)
+    return render_to_response('novica.html', locals(), context_instance=RequestContext(request))

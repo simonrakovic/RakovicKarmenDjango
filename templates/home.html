@@ -24,7 +24,7 @@
         <div class="col-lg-2 visible-lg visible-md"></div>
         <div class="col-lg-8 col-sm-12 col-sx-12">
             <div class="row container-bottom-content">
-                <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     <div class="row">
                         <i class="fa fa-user glyphicon fa-3x"></i>
                         <div class="container-bottom-content-box-content">
@@ -38,7 +38,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     <div class="row">
                         <i class="fa fa-question glyphicon fa-3x"></i>
                         <div class="container-bottom-content-box-content">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     <div class="row">
                         <i class="fa fa-cloud glyphicon fa-3x"></i>
                         <div class="container-bottom-content-box-content">
@@ -69,22 +69,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                    <div class="container-bottom-content-box-content-title">
-                                Povpraševanje
+                <div class="container-bottom-content-box container-bottom-content-box-news col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="row container-bottom-content-box-news-title" >
+                        Novice
+                    </div>
+                    {% for novica in novice %}
+                        <div class="row container-bottom-content-box-content-news">
+                            <div class="container-bottom-content-box-content-news-title">
+                                    <a href="/novica/{{ novica.id }}">{{ novica.title }}</a>
                             </div>
-                            <div class="container-bottom-content-box-content-text">
-                                Living valley had silent eat merits esteem bed. In last an or went wise as left.
-                                Visited civilly am demesne so colonel he calling. So unreserved do interested increasing sentiments.
-
+                            <div class="container-bottom-content-box-content-news-text">
+                                    {{ novica.short_description }}
                             </div>
-                            <div class="container-bottom-content-box-content-button">Vprašajte nas</div>
+                        </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
         <div class="col-lg-2 visible-lg visible-md"></div>
 
     </div>
+
     <div class="row bottom-content-lower-container-2">
         <div class="col-lg-2 visible-lg visible-md"></div>
         <div class="col-lg-8   col-sm-12 col-xs-12">

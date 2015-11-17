@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+{% block head_content %}
+    <link type="text/css" rel="stylesheet" href="{{STATIC_URL}}css/novica.css">
+{% endblock %}
+{% block main_content %}
+    <div class="row bottom-content-container1">
+        <div class="col-lg-2 col-md-2 visible-lg visible-md"></div>
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+              <div class=" row bottom-content-box">
+                  <div class="bottom-content-box-title">
+                        {{ novica.title }}
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                      <div class="row bottom-content-box-text">
+                        {{ novica.text }}
+                      </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 visible-lg visible-md">
+                      <div class="row">
+                          <img class="animated fadeIn bottom-content-box-img" src="{{MEDIA_URL}}{{ novica.image }}" alt="slika1" height="auto" width="90%" />
+                      </div>
+                  </div>
+              </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 visible-lg visible-md"></div>
+    </div>
+
+
+
+{% endblock %}

@@ -1,0 +1,55 @@
+{% extends "main.html" %}
+{% block head_content %}
+    <link type="text/css" rel="stylesheet" href="{{STATIC_URL}}css/novice.css">
+{% endblock %}
+{% block main_content %}
+    <div class="row bottom-content-lower-container">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <div class="row bottom-content-lower-container-news">
+                {% for novica in novice %}
+                    <div class="col-lg-4">
+                        <div class="row bottom-content-lower-container-news-content">
+
+                            <div class="news-content">
+                                <img src="{{ MEDIA_URL }}{{ novica.image }}" alt="slika" width="50%">
+                                <div class="news-title">
+                                    <a href="/novica/{{ novica.id }}">{{ novica.title }}</a>
+                                </div>
+                                <p>
+                                    {{ novica.text }}
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                {% endfor %}
+
+            </div>
+            <div class="row">
+                <nav class="news-pagination">
+                    <ul class="pagination pagination-lg">
+                        <li><a href="#">&laquo;</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+
+
+
+
+{% endblock %}
+
+{% block main_script %}
+
+
+{% endblock %}
