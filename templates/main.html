@@ -13,13 +13,14 @@
     <link type="text/css" rel="stylesheet" href="{{STATIC_URL}}css/animate.css">
     <link type="text/css" rel="stylesheet" href="{{STATIC_URL}}css/font-awesome-4.4.0/css/font-awesome.min.css">
 
-    {% block head_content %}
-    {% endblock %}
+
 
     <script type="application/javascript" rel="script" src="{{STATIC_URL}}js/jquery-1.11.2.min.js"></script>
     <script type="application/javascript" rel="script" src="{{STATIC_URL}}js/jquery.flexslider-min.js"></script>
     <script type="application/javascript" rel="script" src="{{STATIC_URL}}js/bootstrap.min.js"></script>
 
+    {% block head_content %}
+    {% endblock %}
 
 </head>
 <body>
@@ -83,12 +84,12 @@
                                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                                                   <ul class="nav navbar-nav navbar-right">
-                                                      <li class="navbar-active"><a href="/">Domov</a></li>
-                                                      <li class="navbar-inactive"><a href="/podjetje/">O podjetju</a></li>
-                                                      <li class="navbar-inactive"><a href="/storitve/">Storitve</a></li>
-                                                      <li class="navbar-inactive"><a href="/povprasevanje/">Povpraševanje</a></li>
-                                                      <li class="navbar-inactive"><a href="/novice/">Novice</a></li>
-                                                      <li class="navbar-inactive"><a href="/kontakti/">Kontakti</a></li>
+                                                      <li class="{% block nav_domov %}{% endblock %}"><a href="/">Domov</a></li>
+                                                      <li class="{% block nav_podjetje %}{% endblock %}"><a href="/podjetje/">O podjetju</a></li>
+                                                      <li class="{% block nav_storitve %}{% endblock %}"><a href="/storitve/">Storitve</a></li>
+                                                      <li class="{% block nav_povprasevanje %}{% endblock %}"><a href="/povprasevanje/">Povpraševanje</a></li>
+                                                      <li class="{% block nav_novice %}{% endblock %}"><a href="/novice/">Novice</a></li>
+                                                      <li class="{% block nav_kontakti %}{% endblock %}"><a href="/kontakti/">Kontakti</a></li>
 
                                                   </ul>
                                                 </div>
@@ -263,14 +264,8 @@
            );
 
        })
-
-
-
-
-
-
-
-
     </script>
+    {% block main_script %}
+    {% endblock %}
 </body>
 </html>

@@ -93,8 +93,9 @@ body{
     display: none;
 }
 
-.navbar-active{
-   padding-top: -10px;
+.navbar-active > a{
+   text-decoration: underline;
+   font-weight: bold;
 }
 
     /** FONTS */

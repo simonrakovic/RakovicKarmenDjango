@@ -13,3 +13,10 @@ class Novica(models.Model):
 
     image = models.ImageField(upload_to='images/')
 
+class Files(models.Model):
+    name = models.CharField(max_length=60)
+    description = models.CharField(max_length=300)
+
+    novica = models.ForeignKey('Novica')
+
+    path = models.FileField(upload_to='files/')

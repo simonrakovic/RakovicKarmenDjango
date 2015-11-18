@@ -1,5 +1,13 @@
 
 /** NAVBAR */
+a {
+   outline: 0;
+}
+
+a:hover, a:active, a:focus {
+  outline: 0;
+}
+
 .navbar{
     margin-bottom: 0px;
     margin-top: 20px;
@@ -44,17 +52,18 @@
 
 
 .navbar-nav > li > a:active{
+    text-decoration: underline;
 
 }
 
 .navbar-nav > li > a:hover{
 
-
+    text-decoration: underline;
 }
 
 .navbar-nav > li > a:focus{
 
-
+    text-decoration: underline;
 }
 
 

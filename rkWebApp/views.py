@@ -6,7 +6,7 @@ from django.shortcuts import render, render_to_response
 # Create your views here.
 from django.template import RequestContext
 from rkWebApp.forms import QuestionForm
-from rkWebApp.models import Novica
+from rkWebApp.models import Novica, Files
 
 
 def home(request):
@@ -50,4 +50,5 @@ def novice(request):
 def novica(request, id):
 
     novica = Novica.objects.get(pk=id)
+    files = Files.objects.filter(novica=id)
     return render_to_response('novica.html', locals(), context_instance=RequestContext(request))
