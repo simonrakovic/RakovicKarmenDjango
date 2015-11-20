@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from django.contrib import messages
+from django.core.mail import send_mail
 from django.shortcuts import render, render_to_response
 
 # Create your views here.
@@ -31,10 +32,16 @@ def povprasevanje(request):
         if form.is_valid():
             ime_kontaktne_osebe = form.cleaned_data['ime_kontaktne_osebe']
 
+            name = form.cleaned_data['name']
+            email = form.cleaned_data['email']
+            text = form.cleaned_data['text']
+
+            send_mail(email, ['fitnes.peter.klepec@gmail.com'], fail_silently=False)
+
+
             messages.success(request, 'Povpraševanje uspešno poslano.')
             form = QuestionForm()
             return render_to_response('povprasevanje.html', locals(), context_instance=RequestContext(request))
-
 
     return render_to_response('povprasevanje.html', locals(), context_instance=RequestContext(request))
 
@@ -44,7 +51,6 @@ def kontakti(request):
 def novice(request):
 
     novice = Novica.objects.all()
-
     return render_to_response('novice.html', locals(), context_instance=RequestContext(request))
 
 def novica(request, id):

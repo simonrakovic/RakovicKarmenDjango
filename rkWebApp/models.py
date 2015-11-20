@@ -13,6 +13,9 @@ class Novica(models.Model):
 
     image = models.ImageField(upload_to='images/')
 
+    def __unicode__(self):
+        return u'%s ' % self.title
+
 class Files(models.Model):
     name = models.CharField(max_length=60)
     description = models.CharField(max_length=300)
@@ -20,3 +23,6 @@ class Files(models.Model):
     novica = models.ForeignKey('Novica')
 
     path = models.FileField(upload_to='files/')
+
+    def __unicode__(self):
+        return u'%s ' % self.name
