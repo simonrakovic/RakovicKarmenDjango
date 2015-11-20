@@ -84,7 +84,7 @@ USE_TZ = True
 
 STATIC_ROOT = '/home/krakovic/webapps/rk_static/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = '/home/krakovic/webapps/rk_media/'
 
 MEDIA_URL = '/media/'
 
