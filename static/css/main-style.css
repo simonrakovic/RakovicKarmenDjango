@@ -141,6 +141,9 @@ body{
      width:95%
 }
 
+img { max-width:100%; height: auto; } /* Enough everywhere except IE8. */
+@media \0screen {img { width: auto }} /* Prevent height distortion in IE8. */
+
 @media(max-width: 1281px) and (min-width: 1200px) {
     .navbar-brand-title {
         display: none;
@@ -170,7 +173,7 @@ body{
 
     .navbar-brand-image{
         display: inline-block;
-        width: 10%;
+        width: 100%;
     }
 
     .navbar-header{

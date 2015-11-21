@@ -19,10 +19,13 @@
     margin-right: 10px;
 
     margin-bottom: 40px;
+
+
 }
 
 .news-content{
-    height: inherit;
+    height: 300px;
+
     padding-left: 10px;
     padding-top: 10px;
     padding-right: 10px;
@@ -32,12 +35,14 @@
 
 
 
+
 }
 
-.news-content img{
+.news-img{
     margin-left: 15px;
     margin-top: 15px;
-    height: 50%;
+    height: 100px;
+    width: 50%;
     float: right;
 }
 
@@ -56,6 +61,10 @@
 
 .news-title a{
     color: rgba(105,18,39,1);
+}
+
+.news-text{
+  line-height: 20px;
 }
 
 .news-pagination ul{

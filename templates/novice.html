@@ -14,14 +14,17 @@
                         <div class="row bottom-content-lower-container-news-content">
 
                             <div class="news-content">
-                                <img src="{{ MEDIA_URL }}{{ novica.image }}" alt="slika" width="50%">
+                                <div class="news-img">
+                                    <img src="{{ MEDIA_URL }}{{ novica.image }}" alt="slika" width="100%" height="100%">
+                                </div>
+
                                 <div class="news-title">
                                     <a href="/novica/{{ novica.id }}">{{ novica.title }}</a>
                                 </div>
-                                <p class="news-text">
-                                    {{ novica.text }}
-                                    <a class="readmore" href="/novica/{{ novica.id }}/">več</a>
-                                </p>
+
+                                {{ novica.text }}
+                                <a class="readmore" href="/novica/{{ novica.id }}/">več</a>
+
 
                             </div>
                         </div>
@@ -46,8 +49,8 @@
         $(document).ready(function() {
             $(".news-content").dotdotdot({
                 after: "a.readmore",
-                watch: "window",
-                height: 230
+                watch: "window"
+
             });
         });
     </script>
