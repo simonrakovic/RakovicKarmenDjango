@@ -22,7 +22,7 @@
                                     <a href="/novica/{{ novica.id }}">{{ novica.title }}</a>
                                 </div>
 
-                                {{ novica.text }}
+                                {{ novica.text|safe }}
                                 <a class="readmore" href="/novica/{{ novica.id }}/">več</a>
 
 
