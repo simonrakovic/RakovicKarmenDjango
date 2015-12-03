@@ -87,25 +87,25 @@
                                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                                                   <ul class="nav navbar-nav navbar-right">
-                                                      <li class="{% block nav_domov %}{% endblock %}">
+                                                      <li class="">
 														<a href="/">DOMOV</a>
-														<span class="nav-separator"></span>
+														<span class="nav-separator {% block nav_domov %}{% endblock %}"></span>
 													  </li>
-                                                      <li class="{% block nav_storitve %}{% endblock %}">
+                                                      <li class="">
 														<a href="/storitve/">STORITVE</a>
-														<span class="nav-separator"></span>
+														<span class="nav-separator {% block nav_storitve %}{% endblock %}"></span>
 													  </li>
-                                                      <li class="{% block nav_povprasevanje %}{% endblock %}">
-														<a href="/povprasevanje/">POVPRASEVANJE</a>
-														<span class="nav-separator"></span>
+                                                      <li class="">
+														<a href="/povprasevanje/">POVPRAŠEVANJE</a>
+														<span class="nav-separator {% block nav_povprasevanje %}{% endblock %}"></span>
 													  </li>
-                                                      <li class="{% block nav_novice %}{% endblock %}">
+                                                      <li class="">
 														<a href="/novice/">NOVICE</a>
-														<span class="nav-separator"></span>
+														<span class="nav-separator {% block nav_novice %}{% endblock %}"></span>
 													  </li>
-                                                      <li class="{% block nav_kontakti %}{% endblock %}">
+                                                      <li class="">
 														<a href="/kontakti/">KONTAKTI</a>
-														<span class="nav-separator"></span>
+														<span class="nav-separator {% block nav_kontakti %}{% endblock %}"></span>
 													  </li>
 
                                                   </ul>
@@ -237,12 +237,16 @@
 
            $(".nav > li").hover(
                function(){
-                    $($(this).children()[1]).fadeIn()
+
+                    $($(this).children()[1]).stop(true, false).animate({width:"90%"})
+
+                    $($(this).children()[1]).animate({width:"85%"}, 100)
 
                },
                function(){
 
-                    $($(this).children()[1]).fadeOut()
+                    $($(this).children()[1]).stop(true, false).animate({width:"0%"})
+
                }
             );
 

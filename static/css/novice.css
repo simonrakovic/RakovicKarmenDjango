@@ -57,6 +57,9 @@
     font-weight: bold;
 
 
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
 }
 
 .news-title a{

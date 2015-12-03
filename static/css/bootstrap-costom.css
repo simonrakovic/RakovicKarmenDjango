@@ -35,6 +35,7 @@ a:hover, a:active, a:focus {
 
    color: #ffffff;
    font-size: 1em;
+   font-weight: 600;
    
    border-right: 1px solid rgba(0,0,0,0.1);
 
@@ -49,21 +50,9 @@ a:hover, a:active, a:focus {
 
 
 
-.navbar-nav > li > a:active{
-    
-
+.navbar-nav > li {
+    margin-right: 10px;
 }
-
-.navbar-nav > li > a:hover{
-
-    
-}
-
-.navbar-nav > li > a:focus{
-
-    
-}
-
 
 
 

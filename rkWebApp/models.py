@@ -9,6 +9,7 @@ class Novica(models.Model):
     creation_date = models.DateField()
 
     short_description = models.CharField(max_length=300)
+    short_text = models.TextField()
     text = models.TextField()
 
     image = models.ImageField(upload_to='images/')
