@@ -168,6 +168,15 @@ body{
      width:95%;
 }
 
+.footer-container-copyrights{
+    text-align: center;
+    color: #000000;
+    font-size: 0.7em;
+
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
 img { max-width:100%; height: auto; } /* Enough everywhere except IE8. */
 @media \0screen {img { width: auto }} /* Prevent height distortion in IE8. */
 
