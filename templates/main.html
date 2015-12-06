@@ -142,7 +142,6 @@
                                  <ul>
                                      <li><i class="fa fa-mobile"> </i> <span>040 833 431</span></li>
                                      <li><i class="fa fa-phone-square"> </i> <span>01/423 41 32</span></li>
-                                     <li><i class="fa fa-fax"></i> <span>01/423 41 32</span></li>
                                      <li><i class="fa fa-envelope-o"></i> <span>karmen.rakovic@siol.net</span></li>
                                  </ul>
 
@@ -156,7 +155,7 @@
                              <div class="footer-box-content">
                                  <ul>
                                      <li><i class="fa fa-home"> </i> <span>Tbilijsiska ulica 57, 1000 Ljubljana</span></li>
-                                     <li>ID DDV: <span>SI75563568</span></li>
+
                                  </ul>
                              </div>
                          </div>
@@ -187,6 +186,7 @@
 
 
     <script>
+
 		$(window).load(function(){
 			$(".loading-screen").hide();
 	    });
@@ -222,14 +222,8 @@
                         $(".bottom-content-flexslider-title1").hide()
                         $(".bottom-content-flexslider-title2").hide()
                     }
-
-
-
                 }
              });
-
-
-
         });
 		
 	   $(document).load(function(){
@@ -254,53 +248,54 @@
                }
             );
 
+           function changeNavbar(){
+               if($(document).width() > 991){
+                    if($(document).scrollTop() !=0){
+                        $(".navbar").css({"margin-top":"0"});
+
+                        $(".navbar-inverse").css({"min-height":"40px"});
+                        $(".navbar-inverse").css({"transition":"min-height 1s"});
+                        $(".navbar-nav").css({"margin-top":"10px"});
+                        $(".navbar-nav").css({"transition":"margin-top 1s"});
+                        $(".navbar-brand-title").fadeOut()
+
+                        $(".navbar-brand-container").css({"padding-top":"0"});
+                        $(".navbar-brand-container").css({"transition":"padding-top 1s"});
+                    }else{
+                        $(".navbar").css({"margin-top":"20px"});
+
+                        $(".navbar-inverse").css({"min-height":"100px"});
+
+                        $(".navbar-nav").css({"margin-top":"60px"});
+
+                        $(".navbar-brand-title").fadeIn();
+
+                        $(".navbar-brand-container").css({"padding-top":"25px"});
+                        $(".navbar-brand-container").css({"transition":"padding-top 1s"});
+                    }
+
+               }else{
+                   if($(document).scrollTop() !=0){
+                       $(".navbar").css({"margin-top":"0"});
+
+                   }else{
+                       $(".navbar").css({"margin-top":"20px"});
+                   }
+               }
+           }
 
            $(document).scroll(
                 function(){
-
-                    if($(document).width() > 991){
-                        if($(document).scrollTop() !=0){
-                            $(".navbar").css({"margin-top":"0"});
-
-                            $(".navbar-inverse").css({"min-height":"40px"});
-                            $(".navbar-inverse").css({"transition":"min-height 1s"});
-                            $(".navbar-nav").css({"margin-top":"10px"});
-                            $(".navbar-nav").css({"transition":"margin-top 1s"});
-                            $(".navbar-brand-title").fadeOut()
-
-                            $(".navbar-brand-container").css({"padding-top":"0"});
-                            $(".navbar-brand-container").css({"transition":"padding-top 1s"});
-                        }else{
-                            $(".navbar").css({"margin-top":"20px"});
-
-                            $(".navbar-inverse").css({"min-height":"100px"});
-
-                            $(".navbar-nav").css({"margin-top":"60px"});
-
-                            $(".navbar-brand-title").fadeIn();
-
-                            $(".navbar-brand-container").css({"padding-top":"25px"});
-                            $(".navbar-brand-container").css({"transition":"padding-top 1s"});
-                        }
-
-                    }else{
-                       if($(document).scrollTop() !=0){
-                           $(".navbar").css({"margin-top":"0"});
-
-                       }else{
-                           $(".navbar").css({"margin-top":"20px"});
-                       }
-                    }
+                    changeNavbar()
                 }
            );
+
+           changeNavbar()
 
        })
     </script>
     {% block main_script %}
     {% endblock %}
-
-
-
 
 
     <script type="text/javascript">
