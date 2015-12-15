@@ -13,6 +13,10 @@
 
 }
 
+.boottom-content-flexslider{
+    animation-delay: 0.5s;
+}
+
 .boottom-content-flexslider-img{
     max-height: 500px;
 
@@ -26,33 +30,22 @@
     top:180px;
     left:0;
 
-
 }
 
 .bottom-content-flexslider-title1 h1{
     font-size: 2.5em;
-    text-shadow: 2px 2px 1px rgba(105,18,39,0.2);
-    color:white;
-    background: #0292E0;
+
+    color:rgba(105,18,39,1);
+
+    font-weight: 600;
+
+    text-transform: uppercase;
 
     width: 100%;
 
     padding-top: 5px;
     text-align: center;
 
-}
-
-.bottom-content-flexslider-title1 h2{
-    margin-top: 50px;
-    font-size: 2.2em;
-    text-shadow: 2px 2px 1px rgba(105,18,39,0.2);
-    color:white;
-    padding-top: 5px;
-    text-align: center;
-    background: #EFB43D;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
 }
 
 
@@ -61,51 +54,27 @@
      width: 40%;
 
      position: absolute;
-     top:180px;
+     top:240px;
      left:0;
 }
 
 .bottom-content-flexslider-title2 h1{
     font-size: 2.5em;
-
-    text-shadow: 2px 2px 1px rgba(105,18,39,0.2);
-
-    color:white;
-    background: rgba(105,18,39,1);
-
+    color: #333333;
     width: 100%;
     text-align: center;
 
 
     padding-top: 5px;
-
-
 }
 
 
-.animate-title2-text2{
-    width: 100%;
-    margin-top: 50px;
-}
 
-.animate-title2-text2 a{
-    display: block;
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
 
-    height: 40px;
-    line-height: 40px;
-
-    background: #EFB43D;
-
-    text-align: center;
-    font-size: 1.8em;
-    color: white;
-}
-
-.animate-title2-text2 a:hover{
+.animate-title2-button a:hover{
     text-decoration: none;
+
+    background: #ffc43e;
 
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
@@ -113,26 +82,100 @@
 
 }
 
+.animate-title2-button a:active{
+   text-decoration: none;
+}
+
+.animate-title2-button a:focus{
+   text-decoration: none;
+}
+
+.bottom-content-flexslider-circle1{
+    position: absolute;
+    top: 150px;
+    right: 0;
+
+    width: 200px;
+    height: 200px;
+
+    background: rgba(105,18,39,0.9);
+
+    border-radius: 50%;
+
+    color: white;
+    text-align: center;
+}
+
+.bottom-content-flexslider-circle1-text{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 65px;
+
+    color: white;
+
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
+.bottom-content-flexslider-circle1-button{
+
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+.bottom-content-flexslider-circle1-button a{
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+
+    background: #EFB43D;
+    border-radius: 2px;
+
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+}
+
+.bottom-content-flexslider-circle2{
+    position: absolute;
+    top: 250px;
+    right: 230px;
+
+    width: 200px;
+    height: 200px;
+
+    background: rgba(239, 180, 61,0.9);
+
+    border-radius: 50%;
+
+    color: white;
+    text-align: center;
+}
+
+
 /** ANIMACIJE */
 
 .bottom-content-lower-container-1{
     min-height: 250px;
 }
 
-.animate-title1-text2-delay{
-    animation-delay: 2s;
-}
-
-.bottom-content-flexslider-title1-animate-delay{
-    animation-delay: 6s;
+.animate-title1-text1-delay{
+    animation-delay: 1s;
 }
 
 .animate-title2-text2-delay{
-    animation-delay: 6s;
+    animation-delay: 2s;
 }
-.animate-title2-button-delay{
-    animation-delay: 6.5s;
-}
+
 
 /** VSEBINA */
 

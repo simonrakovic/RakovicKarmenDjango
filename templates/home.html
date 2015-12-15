@@ -5,21 +5,35 @@
 {% endblock %}
 {% block nav_domov %}navbar-active{% endblock %}
 {% block main_content %}
-    <div class="row boottom-content-flexslider ">
-        <div class="flexslider">
+    <div class="row boottom-content-flexslider animated fadeIn">
+        <div class="flexslider ">
             <ul class="slides">
-                <li>
-                    <img class="boottom-content-flexslider-img" src="{{STATIC_URL}}img/bg05.jpg" width="100%" height="auto" />
-                    <div class="bottom-content-flexslider-title1 animated fadeOutLeft bottom-content-flexslider-title1-animate-delay">
-                        <h1 class="animate-title1-text1  animated fadeInLeft">Danes je čas za spremembe</h1>
-                        <h2 class="animate-title1-text2  animated fadeInLeft animate-title1-text2-delay">Odločitev je na vaši strani</h2>
-                    </div>
-                    <div class="bottom-content-flexslider-title2">
-                        <h1 class="animate-title2-text1 animated fadeInLeft animate-title2-text2-delay">Kontaktirajte nas</h1>
-                        <div class="animate-title2-text2 animated fadeIn animate-title2-button-delay">
-                            <a href="/povprasevanje/">Povpraševanje</a>
+                <li >
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="bottom-content-flexslider-title1">
+                            <h1 class="animate-title1-text1  animated fadeInDown animate-title1-text1-delay">Čas za spremembe</h1>
+                        </div>
+                        <div class="bottom-content-flexslider-title2">
+                            <h1 class="animate-title2-text1 animated fadeInUp animate-title2-text2-delay">Kontaktirajte nas</h1>
+
+                        </div>
+                        <div class="bottom-content-flexslider-circle1">
+                            <div class="bottom-content-flexslider-circle1-text">
+                                VAS ZANIMA CENA
+                            </div>
+                            <i class="fa fa-question fa-5x"></i>
+                        </div>
+                        <div class="bottom-content-flexslider-circle2">
+                            <div class="bottom-content-flexslider-circle1-text">
+                                NAŠE STROKOVNO MNENJE
+                            </div>
+                            <i class="fa fa-question fa-5x"></i>
                         </div>
                     </div>
+                    <div class="col-lg-2"></div>
+                    <img class="boottom-content-flexslider-img" src="{{STATIC_URL}}img/bg05.jpg" width="100%" height="auto" />
+
                 </li>
 
             </ul>
@@ -31,7 +45,7 @@
             <div class="row container-bottom-content">
                 <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     <div class="row">
-                        <i class="fa fa-user glyphicon fa-3x"></i>
+                        <i class="fa fa-user glyphicon fa-3x "></i>
                         <div class="container-bottom-content-box-content">
                             <div class="container-bottom-content-box-content-title">
                                 Osebno sodelovanje
@@ -47,7 +61,7 @@
                 </div>
                 <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     <div class="row">
-                        <i class="fa fa-question glyphicon fa-3x"></i>
+                        <i class="fa fa-phone glyphicon fa-3x "></i>
                         <div class="container-bottom-content-box-content">
                             <div class="container-bottom-content-box-content-title">
                                 Vedno na voljo
@@ -62,7 +76,7 @@
                 </div>
                 <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     <div class="row">
-                        <i class="fa fa-cloud glyphicon fa-3x"></i>
+                        <i class="fa fa-cloud glyphicon fa-3x "></i>
                         <div class="container-bottom-content-box-content">
                             <div class="container-bottom-content-box-content-title">
                                 Računovodstvo v oblaku
@@ -119,5 +133,23 @@
         <div class="col-lg-2 visible-lg visible-md"></div>
     </div>
 
+
+{% endblock %}
+
+{% block main_script %}
+    <script>
+        $(document).ready(function(){
+             $('.flexslider').flexslider({
+
+                animation: "fade",
+                controlNav: false,
+                directionNav: false,
+                slideshowSpeed:10000
+
+
+
+             });
+        });
+    </script>
 
 {% endblock %}
