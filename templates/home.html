@@ -5,35 +5,26 @@
 {% endblock %}
 {% block nav_domov %}navbar-active{% endblock %}
 {% block main_content %}
-    <div class="row boottom-content-flexslider animated fadeIn">
+    <div class="row boottom-content-flexslider ">
         <div class="flexslider ">
             <ul class="slides">
                 <li >
                     <div class="col-lg-2"></div>
                     <div class="col-lg-8">
-                        <div class="bottom-content-flexslider-title1">
-                            <h1 class="animate-title1-text1  animated fadeInDown animate-title1-text1-delay">Čas za spremembe</h1>
+                        <div class="bottom-content-flexslider-title1 animated fadeInDown animate-title1-text1-delay">
+                            <h1 class="animate-title1-text1">Sprememba je vaša odločitev</h1>
+                            <span class="bottom-content-flexslider-title1-separator"></span>
                         </div>
-                        <div class="bottom-content-flexslider-title2">
-                            <h1 class="animate-title2-text1 animated fadeInUp animate-title2-text2-delay">Kontaktirajte nas</h1>
-
+                        <div class="bottom-content-flexslider-title2 animated fadeIn animate-title2-text2-delay">
+                            <a id="slider-button1" class="bottom-content-flexslider-title2-button1" href="#">Kontaktirajte nas</a>
+                            <a id="slider-button2" class="bottom-content-flexslider-title2-button2" href="/povprasevanje/">Vas zanima cena </a>
                         </div>
-                        <div class="bottom-content-flexslider-circle1">
-                            <div class="bottom-content-flexslider-circle1-text">
-                                VAS ZANIMA CENA
-                            </div>
-                            <i class="fa fa-question fa-5x"></i>
-                        </div>
-                        <div class="bottom-content-flexslider-circle2">
-                            <div class="bottom-content-flexslider-circle1-text">
-                                NAŠE STROKOVNO MNENJE
-                            </div>
-                            <i class="fa fa-question fa-5x"></i>
-                        </div>
+                        
                     </div>
                     <div class="col-lg-2"></div>
+                    <div class="flexslider-img-overlay"></div>
                     <img class="boottom-content-flexslider-img" src="{{STATIC_URL}}img/bg05.jpg" width="100%" height="auto" />
-
+					
                 </li>
 
             </ul>
@@ -43,67 +34,57 @@
         <div class="col-lg-2 visible-lg visible-md"></div>
         <div class="col-lg-8 col-sm-12 col-sx-12">
             <div class="row container-bottom-content">
-                <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="container-bottom-content-box col-lg-4 col-md-4 col-sm-4 col-xs-12 animated fadeIn animate-dalay-0-5">
                     <div class="row">
+                    	<span></span>
                         <i class="fa fa-user glyphicon fa-3x "></i>
                         <div class="container-bottom-content-box-content">
                             <div class="container-bottom-content-box-content-title">
                                 Osebno sodelovanje
+                                
                             </div>
                             <div class="container-bottom-content-box-content-text">
-                                Pri našem računovodskem servisu boste deležni posebne obravnave. Računovodske storitve prilagajamo potrebam in željam strank. 
-								Do vsake stranke pristopamo individualno. 
-								Stranka nima v zvezi z računovodstvom kakšnih posebnih opravil, če ne želi. 
+                            	
+                                Računovodske storitve prilagajamo potrebam in željam strank. 
 								
+				
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="container-bottom-content-box col-lg-4 col-md-4 col-sm-4 col-xs-12 animated fadeIn animate-dalay-1-0">
                     <div class="row">
                         <i class="fa fa-phone glyphicon fa-3x "></i>
                         <div class="container-bottom-content-box-content">
                             <div class="container-bottom-content-box-content-title">
                                 Vedno na voljo
+                                
                             </div>
                             <div class="container-bottom-content-box-content-text">
-                                Namenite več časa svojemu poslu, vse storitve v zvezi z računovodstvom prevzamemo mi.
-								Preko spletnega obrazca za povpraševanje stopite v kontakt z nami. Na voljo smo vam tudi na telefon 
-								01/423-41-32 ali na elektronski naslov.
+                            	
+                                Če imate težavo ali vprašanje, smo vam vedno na voljo.
+								
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="container-bottom-content-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="container-bottom-content-box col-lg-4 col-md-4 col-sm-4 col-xs-12 animated fadeIn animate-dalay-1-5">
                     <div class="row">
                         <i class="fa fa-cloud glyphicon fa-3x "></i>
                         <div class="container-bottom-content-box-content">
                             <div class="container-bottom-content-box-content-title">
                                 Računovodstvo v oblaku
+                                
                             </div>
                             <div class="container-bottom-content-box-content-text">
-                                Uporabljamo miniMAX, ki je najbolj priljubljen spletni poslovni računovodski program.
-                                Podatki se vnašajo samo enkrat, sočasno jih lahko obdelujemo na različnih lokacijah, tako v podjetju, kot v računovodstvu.
+                                Uporabljamo miniMAX, ki je dostopen preko spleta.
+                                
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="container-bottom-content-box container-bottom-content-box-news col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                    <div class="row container-bottom-content-box-news-title" >
-                        Novice
-                    </div>
-                    {% for novica in novice %}
-                        <div class="row container-bottom-content-box-content-news">
-                            <div class="container-bottom-content-box-content-news-title">
-                                    <a href="/novica/{{ novica.id }}">{{ novica.title }}</a>
-                            </div>
-                            <div class="container-bottom-content-box-content-news-text">
-                                    {{ novica.short_description }}
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
+                
             </div>
         </div>
         <div class="col-lg-2 visible-lg visible-md"></div>
@@ -114,26 +95,62 @@
         <div class="col-lg-2 visible-lg visible-md"></div>
         <div class="col-lg-8   col-sm-12 col-xs-12">
             <div class="row bottom-content-lower-container-2-content">
+            	<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                	<div class="bottom-content-lower-container-content-logos">
+                		<img src="{{STATIC_URL}}img/minimax.png" height="50px" width="auto" />
+                		<img src="{{STATIC_URL}}img/icenter.png" height="50px" width="auto" />
+                	</div>
+                	<span class="bottom-content-lower-container-content-title-separator"></span>
+                    <div class="row bottom-content-lower-container-content-text">
+                        Smo računovodski sevis z dolgoletnimi izkušnjami na področju vodenja računovodstva ter davčnega svetovanja .
+                        Kljub temu, da smo majhen servis se po kakovosti  in strokovnosti ne razlikujemo od večjih.
+                  	 	To je kvečjemu naša prednost, saj se lahko bolj poglobimo v poslovanje  posameznega podjetja.
+                  	 	<br/>
+                  	 	<br/>
+                      	Naša največja odlika je, da smo vedno dosegljivi za vaše probleme, vprašanja ter poskušamo ohranjati oseben stik s stranko. Z našim zanesljivim ter strokovnim  delom poskušamo z vsako stranko graditi medsebojno zaupanje, ki je tudi temelj dolgoletnega sodelovanja.
+
+                    </div>
+                </div>
                 <div class="col-lg-3 col-md-3 visible-lg visible-md">
                     <div class="row">
                         <img class="bottom-content-lower-container-2-content-image " src="{{STATIC_URL}}img/corporateportrait.jpg" alt="slika1" height="auto" width="50%" />
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                    <div class="row bottom-content-lower-container-2-content-text">
-                        Smo računovodski sevis z dolgoletnimi izkušnjami na področju vodenja računovodstva ter davčnega svetovanja .
-                              Kljub temu, da smo majhen servis se po kakovosti  in strokovnosti ne razlikujemo od večjih.
-                              To je kvečjemu naša prednost, saj se lahko bolj poglobimo v poslovanje  posameznega podjetja.
-                              Naša največja odlika je, da smo vedno dosegljivi za vaše probleme, vprašanja ter poskušamo ohranjati oseben stik s stranko. Z našim zanesljivim ter strokovnim  delom poskušamo z vsako stranko graditi medsebojno zaupanje, ki je tudi temelj dolgoletnega sodelovanja.
-
-                    </div>
-                </div>
+                
             </div>
         </div>
         <div class="col-lg-2 visible-lg visible-md"></div>
     </div>
+    
+    <div class="row bottom-content-lower-container-3">
+        <div class="col-lg-2 visible-lg visible-md"></div>
+        <div class="col-lg-8   col-sm-12 col-xs-12">
+            <div class="row bottom-content-lower-container-3-content">
+            	<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                	<div class="bottom-content-lower-container-content-title">O podjetju</div>
+                	<span class="bottom-content-lower-container-content-title-separator"></span>
+                    <div class="row bottom-content-lower-container-content-text">
+                        Smo računovodski sevis z dolgoletnimi izkušnjami na področju vodenja računovodstva ter davčnega svetovanja .
+                        Kljub temu, da smo majhen servis se po kakovosti  in strokovnosti ne razlikujemo od večjih.
+                  	 	To je kvečjemu naša prednost, saj se lahko bolj poglobimo v poslovanje  posameznega podjetja.
+                  	 	<br/>
+                  	 	<br/>
+                      	Naša največja odlika je, da smo vedno dosegljivi za vaše probleme, vprašanja ter poskušamo ohranjati oseben stik s stranko. Z našim zanesljivim ter strokovnim  delom poskušamo z vsako stranko graditi medsebojno zaupanje, ki je tudi temelj dolgoletnega sodelovanja.
 
-
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 visible-lg visible-md">
+                    <div class="row">
+                        <img class="bottom-content-lower-container-2-content-image " src="{{STATIC_URL}}img/corporateportrait.jpg" alt="slika1" height="auto" width="50%" />
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-lg-2 visible-lg visible-md"></div>
+    </div>
+	
+	
 {% endblock %}
 
 {% block main_script %}
@@ -144,11 +161,10 @@
                 animation: "fade",
                 controlNav: false,
                 directionNav: false,
-                slideshowSpeed:10000
-
-
-
+                slideshowSpeed:100
              });
+             
+             
         });
     </script>
 

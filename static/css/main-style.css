@@ -14,16 +14,18 @@ body{
 	background: #FFEEED;
 	z-index: 10;
 	
-	
 }
 
 .loading-screen > i{
 	position:absolute;
-	top:30%;
+	top:40%;
 	left:50%;
 	
+	
+	margin-left:-20px;
 	color:rgba(105,18,39,1);
 }
+
 /** TOP CONTENT */
 
 

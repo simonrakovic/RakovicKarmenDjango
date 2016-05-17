@@ -1,0 +1,15 @@
+<div class="container-bottom-content-box container-bottom-content-box-news col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="row container-bottom-content-box-news-title" >
+                        Novice
+                    </div>
+                    {% for novica in novice %}
+                        <div class="row container-bottom-content-box-content-news">
+                            <div class="container-bottom-content-box-content-news-title">
+                                    <a href="/novica/{{ novica.id }}">{{ novica.title }}</a>
+                            </div>
+                            <div class="container-bottom-content-box-content-news-text">
+                                    {{ novica.short_description }}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
