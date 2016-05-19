@@ -5,36 +5,41 @@
     <title></title>
 </head>
 <body>
-    <div class="content">
-        <div class="title"></div>
-        <div class="text"></div>
+    <div class="content" style="">
+    	<div class="title">
+    		<h1 class="">{{ naziv_podjetja }}</h1>
+        	<h4> Ime kontaktne osebe: {{ime_kontaktne_osebe}}</h3>
+        	<h4> Elektronski naslov: {{email}}</h3>
+    	</div>
+        
+        <div class="text">
+        	<ul style="list-style-type: none;">
+        		<li>
+        			Sedež podjetja: <span style="padding-left:15px">{{ sedez_podjetja }}</span>
+        		</li>
+        		<li>
+        			Vrsta dejavnosti: <span style="padding-left:15px">{{ vrsta_dejavnosti  }}</span>
+        		</li>
+        		<li>
+        			Davčni zavezanec: <span style="padding-left:15px">{{ davcni_zavezanec  }}</span>
+        		</li>
+        		<li>
+        			Število zaposlenih: <span style="padding-left:15px">{{ st_zaposlenih  }}</span>
+        		</li>
+        		<li>
+        			Število prejetih računov/mesečno: <span style="padding-left:15px">{{ st_prejetnih_racunov }}</span>
+        		</li>
+        		<li>
+        			Število izdanih računov/mesečno: <span style="padding-left:15px">{{ st_izdanih_racunov  }}</span>
+        		</li>
+        		<li>
+        			Vrsta dejavnosti: <span style="padding-left:15px">{{ vrsta_dejavnosti }}</span>
+        		</li>
+        	</ul>
+        	<div class="text2">
+        		{{	dodatna_vprasanja }}
+        	</div>  
+        </div>
     </div>
 </body>
-
-<style>
-    body{
-        background: rgba(105,18,39,.08);
-
-    }
-
-    .content{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5%;
-        width: 50%;
-
-        height: 700px;
-        background: #ffffff;
-
-
-        padding-left: 20px;
-        padding-right: 20px;
-
-
-        -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
-        -moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
-        box-shadow:  0px 1px 4px rgba(0,0,0,0.2);
-    }
-</style>
-
 </html>
