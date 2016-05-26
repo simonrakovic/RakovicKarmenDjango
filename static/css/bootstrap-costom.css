@@ -18,7 +18,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-inverse{
-    background-color: rgba(105,18,39,0.98);
+    background-color: rgba(105,18,39,0.95);
     border: none;
     min-height: 100px;
 

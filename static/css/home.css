@@ -29,7 +29,7 @@
 	width: 100%;
 	height: 100%;
 	
-	background: rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.4);
 	z-index: 50;
 }
 
@@ -41,6 +41,8 @@
     right:0;
 	text-align: center;
 	z-index: 60;
+	
+	
 }
 
 .bottom-content-flexslider-title1 h1{
@@ -52,12 +54,15 @@
     width: 100%;
     padding-top: 5px;
     text-align: center;
+    
+    
+	text-shadow: 0px 2px 3px #555;
 
 }
 
 .bottom-content-flexslider-title1-separator{
 	width:70%;
-	height: 1px;
+	height: 2px;
 	position: absolute;
   	
   	left: 0;
@@ -91,9 +96,12 @@
 	
 	color:white;
 	
-	border-radius: 2px;
+	border-radius: 0px;
 	
 	font-size:1.4em;
+	
+	
+	text-shadow: 0px 2px 3px #555;
 }
 
 .bottom-content-flexslider-title2-button2{
@@ -110,9 +118,11 @@
 	
 	color:white;
 	
-	border-radius: 2px;
+	border-radius: 0px;
 	
 	font-size:1.4em;
+	
+	text-shadow: 0px 2px 3px #555;
 }
 
 .bottom-content-flexslider-title2-button1:hover{
