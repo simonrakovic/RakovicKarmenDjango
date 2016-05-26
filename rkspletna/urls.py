@@ -28,6 +28,7 @@ urlpatterns = patterns('',
 
 sitemaps = {
     'static': StaticSitemap()
+    
 }
 
 urlpatterns += patterns('',
